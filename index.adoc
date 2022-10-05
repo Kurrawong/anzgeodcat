@@ -1,0 +1,62 @@
+= AusGeoDCAT
+
+_AusGeoDCAT_ will be a profile of https://www.w3.org/TR/vocab-dcat/[Data Catalog Vocabulary (DCAT)] and also of [GeoDCAT](https://semiceu.github.io/GeoDCAT-AP/drafts/latest/) which is, itself a profile of DCAT too.
+
+The purpose of this web page is to describe the motivations and requirements for AusGeoDCAT and this page is being written before AusGeoDCAT is created to ensure it best caters for a wide range of agreed to requirements.
+
+== Motivations
+
+There are several main motivations for the creation of this profile:
+
+. to provide a Knowledge Graph / Semantic Web standard for several new, Australian, geospatial agencies' catalogue tools
+.. several agencies are implementing new https://ckan.org/[CKAN] instances and CKAN already exports some DCAT metadata. Let's improve that...
+. to show Best Practice metadata profile creation
+.. the Australian geospatial community has a long history with metadata standards and brings considerable experience to profile creation, so we think this represents Best Practice profile creation in Australia
+. to present Australian geospatial metadata profile requirements for international profile efforts
+.. the https://www.ogc.org/[Open Geospatial Consortium] is starting a standardisation initiative around Knowledge Graph geospatial metadata and we want to be part of that with our requirements already formulated
+. to ensure geospatial metadata works well with currently emerging non-spatial KG metadata standards
+.. in particular the already formulated https://linked.data.gov.au/def/idncp[Indigenous Data Network Catalogue Profile]
+
+== Requirements
+
+Requirements for AusGeoDCAT as a whole - not the individual requirements for metadata elements as will eventually be specified by the profile - are being gathered in this repository in the table below. Depending on how this proceeds, we may move to GitHub Issue tracking.
+
+|===
+| ID | Name | Description | Rational | Proponent
+
+| R1
+| Formal Profile
+| AusGeoDCAT will be presented as a formally defined Semantic Web profile of DCAT and other standards, formulated according to the W3C's [Profiles Vocabulary](https://www.w3.org/TR/dx-prof/).
+| AusGeoDCAT will both utilise the though behind formal profile definition and showcase it for other potential profiles.
+| GA, Kurrawong
+
+|===
+
+== Get Involved
+
+Anyone can get involved with the development of AusGeoDCAT and we encourage anyone to participate. please just contact those listed below.
+
+=== Who is already involved
+
+|===
+|Organisation | Org Description | Role | Contact
+
+| https://www.ga.gov.au[Geoscience Australia]
+| peak Australian spatial data standards body
+| lead authority and profile expert of the profile
+| Irina Bastrakova
+
+| https://www.energymining.sa.gov.au/industry/geological-survey[Geological Survey of South Australia]
+| South Australia's geological agency
+| CKAN catalogue implementer - profile user
+| Christie Gerrard
+
+| https://kurrawong.net[Kurrawong AI]
+| contract data science  / IT company
+| coordination and technical establishment
+| Nicholas Car
+|===
+
+=== Timeline
+
+A first version of AusGeoDCAT is hoped to be presented in November, 2022. An interoperability experiment using it and conversions to and from it to other standards it expected to be conducted Nov '22 - March '23. March '23+ will see continued operations and development.
