@@ -1,6 +1,6 @@
 = AusGeoDCAT
 
-_AusGeoDCAT_ will be a profile of https://www.w3.org/TR/vocab-dcat/[Data Catalog Vocabulary (DCAT)] and also of [GeoDCAT](https://semiceu.github.io/GeoDCAT-AP/drafts/latest/) which is, itself a profile of DCAT too.
+_AusGeoDCAT_ will be a profile of https://www.w3.org/TR/vocab-dcat/[Data Catalog Vocabulary (DCAT)] and also of https://semiceu.github.io/GeoDCAT-AP/drafts/latest/[GeoDCAT] which is, itself a profile of DCAT too.
 
 The purpose of this web page is to describe the motivations and requirements for AusGeoDCAT and this page is being written before AusGeoDCAT is created to ensure it best caters for a wide range of agreed to requirements.
 
@@ -56,6 +56,18 @@ Anyone can get involved with the development of AusGeoDCAT and we encourage anyo
 | coordination and technical establishment
 | Nicholas Car
 |===
+
+=== Governance
+
+This profile is being established for the organisations already involved with coordination and technical work resourced by them.
+
+Eventual governance and ownership of this profile will be determined by the participating organisation but will likely be allocated to perhaps one of the following:
+
+* an Australia spatial consortium - e.g. ANZLIC / ICSM
+* a lead agency - e.g. Geoscience Australia
+* an informal group of agencies - those participating
+
+Licensing will be CC-BY 4.0, as per Australian government open data standard licensing.
 
 === Timeline
 
