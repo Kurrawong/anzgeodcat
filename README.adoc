@@ -28,7 +28,13 @@ Requirements for AusGeoDCAT as a whole - not the individual requirements for met
 | Formal Profile
 | AusGeoDCAT will be presented as a formally defined Semantic Web profile of DCAT and other standards, formulated according to the W3C's [Profiles Vocabulary](https://www.w3.org/TR/dx-prof/).
 | AusGeoDCAT will both utilise the though behind formal profile definition and showcase it for other potential profiles.
-| GA, Kurrawong
+| ICSM, GA
+
+| R2
+| Interoperability with the https://icsm-au.github.io/metadata-working-group/defs/Introduction.html[ICSM ISO 19115-1 Metadata Profile]
+| AusGeoDCAT data will need to be able to converted to ICSM ISO 19115-1 Metadata Profile data, which is non-Semantic Web XML data, and vice-versa
+| AusGeoDCAT is aiming to be a Semantic Web equivalent to ICSM ISO 19115-1 Metadata, so a demonstrable (executable) both-ways mapping must be maintained.
+| ICSM, GA, GSSA
 
 |===
 
@@ -41,10 +47,15 @@ Anyone can get involved with the development of AusGeoDCAT and we encourage anyo
 |===
 |Organisation | Org Description | Role | Contact
 
-| https://www.ga.gov.au[Geoscience Australia]
-| peak Australian spatial data standards body
-| lead authority and profile expert of the profile
+| https://www.icsm.gov.au/[Intergovernmental Committee on Surveying & Mapping]
+| peak Australian spatial data inter-agency organisation
+| owner of the profile & lead coordinating body
 | Irina Bastrakova
+
+| https://www.ga.gov.au[Geoscience Australia]
+| peak Australian spatial agency
+| lead authority and profile expert of the profile
+| Margie Smith
 
 | https://www.energymining.sa.gov.au/industry/geological-survey[Geological Survey of South Australia]
 | South Australia's geological agency
