@@ -62,6 +62,11 @@ Anyone can get involved with the development of AusGeoDCAT and we encourage anyo
 | CKAN catalogue implementer - profile user
 | Christie Gerrard
 
+| https://idnau.org/[Indigenous Data Network]
+| Australian multi-agency collaboration
+| alignment with the https://linked.data.gov.au/def/idncp[IDN Catalogue Profile]
+| Sandra Silcot
+
 | https://kurrawong.net[Kurrawong AI]
 | contract data science  / IT company
 | coordination and technical establishment
