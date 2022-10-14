@@ -58,6 +58,18 @@ Requirements for AusGeoDCAT as a whole - not the individual requirements for met
 | Search Engine optimisation
 | KurrawongAI
 
+| R6
+| Mapping to FAIR scores
+| Calculation of FAIR Scores from AusGeoDCAT metadata must be possible
+| To allow for the use of the widely-known FAIR score as a metric for AusGeoDCAT datasets
+| Indigenous Data Network, GSSA, GSWA
+
+| R7
+| Linking to Semantic Web spatial data
+| AusGeoDCAT metadata, if created for a Dataset that has content in Semantic Web form, must be able to indicate this data and describe it in summary
+| Australia already has published spatial datasets using DCAT that have their content published in Semantic Web form, e.g. the https://asgs.linked.fsdf.org.au/[FSDF's Linked Data form of the ASGS], and they should be handled well by this profile
+| GA
+
 |===
 
 == Expected Result Form
