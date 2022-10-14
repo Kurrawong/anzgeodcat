@@ -4,6 +4,7 @@ _AusGeoDCAT_ will be a profile of https://www.w3.org/TR/vocab-dcat/[Data Catalog
 
 The purpose of this web page is to describe the motivations and requirements for AusGeoDCAT and this page is being written before AusGeoDCAT is created to ensure it best caters for a wide range of agreed to requirements.
 
+
 == Motivations
 
 There are several main motivations for the creation of this profile:
@@ -34,12 +35,39 @@ Requirements for AusGeoDCAT as a whole - not the individual requirements for met
 | ICSM, GA
 
 | R2
-| Interoperability with the https://icsm-au.github.io/metadata-working-group/defs/Introduction.html[ICSM ISO 19115-1 Metadata Profile]
+| Two-way mapping to the https://icsm-au.github.io/metadata-working-group/defs/Introduction.html[ICSM ISO 19115-1 Metadata Profile]
 | AusGeoDCAT data will need to be able to converted to ICSM ISO 19115-1 Metadata Profile data, which is non-Semantic Web XML data, and vice-versa
 | AusGeoDCAT is aiming to be a Semantic Web equivalent to ICSM ISO 19115-1 Metadata, so a demonstrable (executable) both-ways mapping must be maintained.
 | ICSM, GA, GSSA
 
+| R3
+| Interoperability with the https://linked.data.gov.au/def/idncp[Indigenous Data Network's Catlogue Profile]
+| AusGeoDCAT must be able to work with the IDN CP so that indigenous spatial data can be made conformant to both
+| Indigeneity and spatiality are different, specialised but potentially overlapping aspects of data and there are dataset known to have both dimensions
+| Indigenous Data Network
+
+| R4
+| Conformance with OGC GeoDCAT
+| Eventual alignment with the results of the https://www.ogc.org/[OGC]'s current GeoDCAT-AP standardisation effort
+| AusGeoDCAT must be conformance with similar international standards, when they are established
+| ICSM, GA
+
+| R5
+| Mapping to schema.org
+| Mapping of metadata elements to the general-purpose Knolwedge Graph model https://schema.org[schema.org]
+| Search Engine optimisation
+| KurrawongAI
+
 |===
+
+== Expected Result Form
+
+The profile will be a formal (model-defined) profile of DCAT using profile modelling semantics taken from the W3C's https://www.w3.org/TR/dx-prof/[Profiles Vocabulary].
+
+The profile will likely define constraints on the use of DCAT, mappings from DCAT to other models, suggestions/requirements for the use of models related to DCAT, like https://www.w3.org/TR/prov-o/[PROV] for provenance, and interfaces with other profiles, such as the https://linked.data.gov.au/def/idncp[Indigenous Data Network's Catalogue Profile].
+
+The profile will be presented in normative, human-readable form (a specification), machine-readable model form (a model/schema) as well as mappings, supporting vocabularies and so on. Tooling for data validation against the profile and for metric calculation from profile data (e.g. FAIR scores) will also be provided.
+
 
 == Get Involved
 
@@ -70,7 +98,7 @@ Anyone can get involved with the development of AusGeoDCAT and we encourage anyo
 | alignment with the https://linked.data.gov.au/def/idncp[IDN Catalogue Profile]
 | Sandra Silcot
 
-| https://kurrawong.net[Kurrawong AI]
+| https://kurrawong.net[KurrawongAI]
 | contract data science  / IT company
 | coordination and technical establishment
 | Nicholas Car
