@@ -1,8 +1,10 @@
-= AusGeoDCAT Mapping
+= ANZGeoDCAT Mapping
 
 == to schema.org
 
-This is a mapping between elements of the https://linked.data.gov.au/def/ausgeodcat[AusGeoDCAT] Profile and the https://schema.org[schema.org].
+`https://linked.data.gov.au/def/anzgeodcat/mapping/sdo`
+
+This is a mapping between elements of the https://linked.data.gov.au/def/anzgeodcat[ANZGeoDCAT] Profile and the https://schema.org[schema.org].
 
 _Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond._
 

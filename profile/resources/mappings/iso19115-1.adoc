@@ -1,8 +1,10 @@
-= AusGeoDCAT Mapping
+= ANZGeoDCAT Mapping
 
 == to ISO 19115-1
 
-This is a mapping between elements of the https://linked.data.gov.au/def/ausgeodcat[AusGeoDCAT] Profile and the http://pid.geoscience.gov.au/dataset/ga/122551[ISO19115-1:2014 GA Profile].
+`https://linked.data.gov.au/def/anzgeodcat/mapping/iso19115-1-ga`
+
+This is a mapping between elements of the https://linked.data.gov.au/def/anzgeodcat[ANZGeoDCAT] Profile and the http://pid.geoscience.gov.au/dataset/ga/122551[ISO19115-1:2014 GA Profile].
 
 _The ISO19115-1:2014 GA Profile defines mandatory and conditional packages/entities from ISO 19115-1:2014 necessary to fulfil GA business requirements._
 

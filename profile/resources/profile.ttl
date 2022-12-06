@@ -1,0 +1,6 @@
+PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+
+
+<https://linked.data.gov.au/def/anzgeodcat>
+    a prof:Profile ;
+.

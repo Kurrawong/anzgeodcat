@@ -1,15 +1,15 @@
-= AusGeoDCAT
+= ANZGeoDCAT
 
-_AusGeoDCAT_ will be a profile of https://www.w3.org/TR/vocab-dcat/[Data Catalog Vocabulary (DCAT)] and also of https://semiceu.github.io/GeoDCAT-AP/drafts/latest/[GeoDCAT] which is, itself a profile of DCAT too.
+_ANZGeoDCAT_ will be a profile of https://www.w3.org/TR/vocab-dcat/[Data Catalog Vocabulary (DCAT)] and also of https://semiceu.github.io/GeoDCAT-AP/drafts/latest/[GeoDCAT] which is, itself a profile of DCAT too.
 
-The purpose of this web page is to describe the motivations and requirements for AusGeoDCAT and this page is being written before AusGeoDCAT is created to ensure it best caters for a wide range of agreed to requirements.
+The purpose of this web page is to describe the motivations and requirements for ANZGeoDCAT and this page is being written before ANZGeoDCAT is created to ensure it best caters for a wide range of agreed to requirements.
 
 
 == Motivations
 
 There are several main motivations for the creation of this profile:
 
-. to provide a Knowledge Graph / Semantic Web metadata standard for several new, Australian, geospatial agencies' spatial data catalogues
+. to provide a Knowledge Graph / Semantic Web metadata standard for several new, Australian & New Zealand, geospatial agencies' spatial data catalogues
 .. several agencies are implementing new https://ckan.org/[CKAN] instances and CKAN can already export some DCAT metadata. Let's improve that...
 . to ensure geospatial metadata works well with currently emerging non-spatial KG metadata standards
 .. in particular the already formulated https://linked.data.gov.au/def/idncp[Indigenous Data Network Catalogue Profile]
@@ -17,58 +17,58 @@ There are several main motivations for the creation of this profile:
 . to ensure Semantic Web geospatial metadata is as interoperable as possible with established non-Semantic Web geospatial metadata standards
 .. in particular the http://ldweb.ga.gov.au/def/schema/ga/ISO19115-1-2014/[GA profile of ISO19115-1]
 . to show Best Practice metadata profile creation
-.. the Australian geospatial community has a long history with metadata standards and brings considerable experience to profile creation, so we think this represents Best Practice profile creation in Australia
-.. the https://www.w3.org/TR/dx-prof/[W3C's Profiles Vocabulary] is the standard's body's best effort to provide a standardised profile description model, so AusGeoDCAT will use that for its definition
-. to present Australian geospatial metadata profile requirements for international profile efforts
+.. the Australian geospatial community has a long history with metadata standards and brings considerable experience to profile creation, so we think this represents Best Practice profile creation in Australia & New Zealand
+.. the https://www.w3.org/TR/dx-prof/[W3C's Profiles Vocabulary] is the standard's body's best effort to provide a standardised profile description model, so ANZGeoDCAT will use that for its definition
+. to present Australian & New Zealand geospatial metadata profile requirements for international profile efforts
 .. the https://www.ogc.org/[Open Geospatial Consortium] is starting a standardisation initiative around Knowledge Graph geospatial metadata with https://github.com/opengeospatial/geosemantics-dwg/blob/master/geodcat_swg_charter/swg_charter.pdf[their formalisation of GeoDCAT] and we want to be part of that with our requirements already formulated
 
 
 == Requirements
 
-Requirements for AusGeoDCAT as a whole - not the individual requirements for metadata elements as will eventually be specified by the profile - are being gathered in this repository as task tracker https://github.com/Kurrawong/ausgeodcat/issues[Issues] and are also listed in the table below. Depending on how this proceeds, we may move to GitHub Issue tracking.
+Requirements for ANZGeoDCAT as a whole - not the individual requirements for metadata elements as will eventually be specified by the profile - are being gathered in this repository as task tracker https://github.com/Kurrawong/anzgeodcat/issues[Issues] and are also listed in the table below. Depending on how this proceeds, we may move to GitHub Issue tracking.
 
 |===
 | ID | Name | Description | Rational | Proponent
 
-| https://github.com/Kurrawong/ausgeodcat/issues/1[R1]
+| https://github.com/Kurrawong/anzgeodcat/issues/1[R1]
 | Formal Profile
-| AusGeoDCAT will be presented as a formally defined Semantic Web profile of DCAT and other standards, formulated according to the W3C's [Profiles Vocabulary](https://www.w3.org/TR/dx-prof/).
-| AusGeoDCAT will both utilise the though behind formal profile definition and showcase it for other potential profiles.
+| ANZGeoDCAT will be presented as a formally defined Semantic Web profile of DCAT and other standards, formulated according to the W3C's [Profiles Vocabulary](https://www.w3.org/TR/dx-prof/).
+| ANZGeoDCAT will both utilise the though behind formal profile definition and showcase it for other potential profiles.
 | ICSM, GA
 
-| https://github.com/Kurrawong/ausgeodcat/issues/2[R2]
+| https://github.com/Kurrawong/anzgeodcat/issues/2[R2]
 | Two-way mapping to the https://icsm-au.github.io/metadata-working-group/defs/Introduction.html[ICSM ISO 19115-1 Metadata Profile]
-| AusGeoDCAT data will need to be able to converted to ICSM ISO 19115-1 Metadata Profile data, which is non-Semantic Web XML data, and vice-versa
-| AusGeoDCAT is aiming to be a Semantic Web equivalent to ICSM ISO 19115-1 Metadata, so a demonstrable (executable) both-ways mapping must be maintained.
+| ANZGeoDCAT data will need to be able to converted to ICSM ISO 19115-1 Metadata Profile data, which is non-Semantic Web XML data, and vice-versa
+| ANZGeoDCAT is aiming to be a Semantic Web equivalent to ICSM ISO 19115-1 Metadata, so a demonstrable (executable) both-ways mapping must be maintained.
 | ICSM, GA, GSSA
 
-| https://github.com/Kurrawong/ausgeodcat/issues/3[R3]
+| https://github.com/Kurrawong/anzgeodcat/issues/3[R3]
 | Interoperability with the https://linked.data.gov.au/def/idncp[Indigenous Data Network's Catlogue Profile]
-| AusGeoDCAT must be able to work with the IDN CP so that indigenous spatial data can be made conformant to both
+| ANZGeoDCAT must be able to work with the IDN CP so that indigenous spatial data can be made conformant to both
 | Indigeneity and spatiality are different, specialised but potentially overlapping aspects of data and there are dataset known to have both dimensions
 | Indigenous Data Network
 
-| https://github.com/Kurrawong/ausgeodcat/issues/4[R4]
+| https://github.com/Kurrawong/anzgeodcat/issues/4[R4]
 | Conformance with OGC GeoDCAT
 | Eventual alignment with the results of the https://www.ogc.org/[OGC]'s current GeoDCAT-AP standardisation effort
-| AusGeoDCAT must be conformance with similar international standards, when they are established
+| ANZGeoDCAT must be conformance with similar international standards, when they are established
 | ICSM, GA
 
-| https://github.com/Kurrawong/ausgeodcat/issues/5[R5]
+| https://github.com/Kurrawong/anzgeodcat/issues/5[R5]
 | Mapping to schema.org
 | Mapping of metadata elements to the general-purpose Knolwedge Graph model https://schema.org[schema.org]
 | Search Engine optimisation
 | KurrawongAI
 
-| https://github.com/Kurrawong/ausgeodcat/issues/6[R6]
+| https://github.com/Kurrawong/anzgeodcat/issues/6[R6]
 | Mapping to FAIR scores
-| Calculation of FAIR Scores from AusGeoDCAT metadata must be possible
-| To allow for the use of the widely-known FAIR score as a metric for AusGeoDCAT datasets
+| Calculation of FAIR Scores from ANZGeoDCAT metadata must be possible
+| To allow for the use of the widely-known FAIR score as a metric for ANZGeoDCAT datasets
 | Indigenous Data Network, GSSA, GSWA
 
-| https://github.com/Kurrawong/ausgeodcat/issues/7[R7]
+| https://github.com/Kurrawong/anzgeodcat/issues/7[R7]
 | Linking to Semantic Web spatial data
-| AusGeoDCAT metadata, if created for a Dataset that has content in Semantic Web form, must be able to indicate this data and describe it in summary
+| ANZGeoDCAT metadata, if created for a Dataset that has content in Semantic Web form, must be able to indicate this data and describe it in summary
 | Australia already has published spatial datasets using DCAT that have their content published in Semantic Web form, e.g. the https://asgs.linked.fsdf.org.au/[FSDF's Linked Data form of the ASGS], and they should be handled well by this profile
 | GA
 
@@ -85,7 +85,7 @@ The profile will be presented in normative, human-readable form (a specification
 
 == Get Involved
 
-Anyone can get involved with the development of AusGeoDCAT and we encourage anyone to participate. please just contact those listed below.
+Anyone can get involved with the development of ANZGeoDCAT and we encourage anyone to participate. please just contact those listed below.
 
 === Who is already involved
 
@@ -93,7 +93,7 @@ Anyone can get involved with the development of AusGeoDCAT and we encourage anyo
 |Organisation | Org Description | Role | Contact
 
 | https://www.icsm.gov.au/[Intergovernmental Committee on Surveying & Mapping]
-| peak Australian spatial data inter-agency organisation
+| peak Australian & New Zealand spatial data inter-agency organisation
 | owner of the profile & lead coordinating body
 | Irina Bastrakova
 
@@ -124,7 +124,7 @@ This profile is being established for the organisations already involved with co
 
 Eventual governance and ownership of this profile will be determined by the participating organisation but will likely be allocated to perhaps one of the following:
 
-* an Australia spatial consortium - e.g. ANZLIC / ICSM
+* an Australia & New Zealand spatial consortium - e.g. ANZLIC / ICSM
 * a lead agency - e.g. Geoscience Australia
 * an informal group of agencies - those participating
 
@@ -132,4 +132,4 @@ Licensing will be CC-BY 4.0, as per Australian government open data standard lic
 
 === Timeline
 
-A first version of AusGeoDCAT is hoped to be presented in November, 2022. An interoperability experiment using it and conversions to and from it to other standards it expected to be conducted Nov '22 - March '23. March '23+ will see continued operations and development.
+A first version of ANZGeoDCAT is hoped to be presented in December, 2022. An interoperability experiment using it and conversions to and from it to other standards it expected to be conducted Jan '22 - Apr '23. Apr '23+ will see continued operations and development.

@@ -1,7 +1,9 @@
-= AusGeoDCAT Mapping
+= ANZGeoDCAT Mapping
 
 == to the IDN Catalogue Profile
 
-This is a mapping between elements of the https://linked.data.gov.au/def/ausgeodcat[AusGeoDCAT] Profile and the https://w3id.org/idn/def/cp[Indigenous Data Network's Catalogue Profile].
+`https://linked.data.gov.au/def/anzgeodcat/mapping/idncp`
+
+This is a mapping between elements of the https://linked.data.gov.au/def/anzgeodcat[ANZGeoDCAT] Profile and the https://w3id.org/idn/def/cp[Indigenous Data Network's Catalogue Profile].
 
 _The IDN CP defines a Profile of cataloguing, provenance and vocabulary standards designed for the representation of indigenous datasets and particularly their governance._
