@@ -128,7 +128,18 @@ Eventual governance and ownership of this profile will be determined by the part
 * a lead agency - e.g. Geoscience Australia
 * an informal group of agencies - those participating
 
-Licensing will be CC-BY 4.0, as per Australian government open data standard licensing.
+Task tracking for this project is done through the
+gitHub issue tracker associated with this repository. See the "Project" layour of tasks:
+
+* https://github.com/orgs/Kurrawong/projects/1
+
+==== Licencing & Rights
+
+Licensing for all of this Profile's content will be CC-BY 4.0, as per Australian government open data standard licensing.
+
+Rights for all of this Profile's content will be:
+
+&copy; Intergovernmental Committee on Surveying & Mapping (ICSM), 2022
 
 === Timeline
 
