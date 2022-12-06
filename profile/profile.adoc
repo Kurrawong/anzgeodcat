@@ -1,3 +1,19 @@
 = ANZGeoDCAT Profile
 
 `https://linked.data.gov.au/def/anzgeodcat`
+
+
+== Resources
+
+|===
+| Resources | Role | Description
+
+| https://linked.data.gov.au/def/anzgeodcat/guide[Guide] | https://www.w3.org/TR/dx-prof/#Role:guidance[_guidance_] | Profiles a simple overview of the Profile
+| https://linked.data.gov.au/def/anzgeodcat/spec[Specification] | https://www.w3.org/TR/dx-prof/#Role:specification[_specification_] | Defines the normative _Requirements_ of the Profile
+
+| https://linked.data.gov.au/def/anzgeodcat/fsdf[Mapping to FSDF] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | Defines normative mappings to the https://linked.data.gov.au/def/fsdf-supermodel[FSDF Supermodel]
+| https://linked.data.gov.au/def/anzgeodcat/fsdf[Mapping to IDN CP] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | Defines normative mappings to the https://w3id.org/idn.cp[Indigenous Data Network's Catalogue Profile]
+| https://linked.data.gov.au/def/anzgeodcat/fsdf[Mapping to GA's Profile of ISO19115-1] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | Defines normative mappings to https://linked.data.gov.au/def/anzgeodcat/mapping/iso19115-1-ga[Geoscience Australia's Profile of ISO19115-1]
+| https://linked.data.gov.au/def/anzgeodcat/fsdf[Mapping to schema.org] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | Defines normative mappings to https://schema.org[schema.org]
+
+|===
