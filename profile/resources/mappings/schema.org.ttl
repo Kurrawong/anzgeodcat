@@ -1,0 +1,33 @@
+# RDF/OWL mappings between AusGeoDCAT elements and sche.org elements
+# https://schema.org/docs/data-and-datasets.html
+
+schema:Organization rdfs:subClassOf prov:Agent .
+schema:Person rdfs:subClassOf prov:Agent .
+dcat:Dataset owl:equivalentClass schema:Dataset .
+skos:Concept rdfs:subClassOf schema:Thing .
+skos:ConceptScheme rdfs:subClassOf schema:Enumeration .
+schema:DataDownload rdfs:subClassOf dcat:Distribution .
+# dct:LicenseDocument
+# locn:Address
+# vcard:Address
+# dcat:CatalogRecord
+# spdx:Checksum
+schema:WebAPI rdfs:subClassOf dcat:DataService .
+# foaf:Document
+# adms:Identifier
+vcard:Kind owl:equivalentClass schema:ContactPoint .
+dct:Location owl:equivalentClass schema:Place .
+# dct:MediaTypeOrExtent
+[
+    a owl:Class ;
+    owl:unionOf (
+        schema:Text
+        schema:URL
+    ) ;
+] rdfs:subClassOf dct:MediaType .
+dct:PeriodOfTime owl:equivalentClass schema:DateTime .
+# dct:ProvenanceStatement
+dqv:QualityMeasurement owl:equivalentClass schema:QuantitativeValue .
+# dct:RightsStatement
+# TODO: dct:RightsStatement copyrightNotice
+# dct:Standard

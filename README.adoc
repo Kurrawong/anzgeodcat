@@ -25,48 +25,48 @@ There are several main motivations for the creation of this profile:
 
 == Requirements
 
-Requirements for AusGeoDCAT as a whole - not the individual requirements for metadata elements as will eventually be specified by the profile - are being gathered in this repository in the table below. Depending on how this proceeds, we may move to GitHub Issue tracking.
+Requirements for AusGeoDCAT as a whole - not the individual requirements for metadata elements as will eventually be specified by the profile - are being gathered in this repository as task tracker https://github.com/Kurrawong/ausgeodcat/issues[Issues] and are also listed in the table below. Depending on how this proceeds, we may move to GitHub Issue tracking.
 
 |===
 | ID | Name | Description | Rational | Proponent
 
-| R1
+| https://github.com/Kurrawong/ausgeodcat/issues/1[R1]
 | Formal Profile
 | AusGeoDCAT will be presented as a formally defined Semantic Web profile of DCAT and other standards, formulated according to the W3C's [Profiles Vocabulary](https://www.w3.org/TR/dx-prof/).
 | AusGeoDCAT will both utilise the though behind formal profile definition and showcase it for other potential profiles.
 | ICSM, GA
 
-| R2
+| https://github.com/Kurrawong/ausgeodcat/issues/2[R2]
 | Two-way mapping to the https://icsm-au.github.io/metadata-working-group/defs/Introduction.html[ICSM ISO 19115-1 Metadata Profile]
 | AusGeoDCAT data will need to be able to converted to ICSM ISO 19115-1 Metadata Profile data, which is non-Semantic Web XML data, and vice-versa
 | AusGeoDCAT is aiming to be a Semantic Web equivalent to ICSM ISO 19115-1 Metadata, so a demonstrable (executable) both-ways mapping must be maintained.
 | ICSM, GA, GSSA
 
-| R3
+| https://github.com/Kurrawong/ausgeodcat/issues/3[R3]
 | Interoperability with the https://linked.data.gov.au/def/idncp[Indigenous Data Network's Catlogue Profile]
 | AusGeoDCAT must be able to work with the IDN CP so that indigenous spatial data can be made conformant to both
 | Indigeneity and spatiality are different, specialised but potentially overlapping aspects of data and there are dataset known to have both dimensions
 | Indigenous Data Network
 
-| R4
+| https://github.com/Kurrawong/ausgeodcat/issues/4[R4]
 | Conformance with OGC GeoDCAT
 | Eventual alignment with the results of the https://www.ogc.org/[OGC]'s current GeoDCAT-AP standardisation effort
 | AusGeoDCAT must be conformance with similar international standards, when they are established
 | ICSM, GA
 
-| R5
+| https://github.com/Kurrawong/ausgeodcat/issues/5[R5]
 | Mapping to schema.org
 | Mapping of metadata elements to the general-purpose Knolwedge Graph model https://schema.org[schema.org]
 | Search Engine optimisation
 | KurrawongAI
 
-| R6
+| https://github.com/Kurrawong/ausgeodcat/issues/6[R6]
 | Mapping to FAIR scores
 | Calculation of FAIR Scores from AusGeoDCAT metadata must be possible
 | To allow for the use of the widely-known FAIR score as a metric for AusGeoDCAT datasets
 | Indigenous Data Network, GSSA, GSWA
 
-| R7
+| https://github.com/Kurrawong/ausgeodcat/issues/7[R7]
 | Linking to Semantic Web spatial data
 | AusGeoDCAT metadata, if created for a Dataset that has content in Semantic Web form, must be able to indicate this data and describe it in summary
 | Australia already has published spatial datasets using DCAT that have their content published in Semantic Web form, e.g. the https://asgs.linked.fsdf.org.au/[FSDF's Linked Data form of the ASGS], and they should be handled well by this profile
