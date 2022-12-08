@@ -2,7 +2,7 @@
 
 == to ISO 19115-1
 
-`https://linked.data.gov.au/def/anzgeodcat/mapping/iso19115-1-ga`
+`https://linked.data.gov.au/def/anzgeodcat/iso19115`
 
 This is a mapping between elements of the https://linked.data.gov.au/def/anzgeodcat[ANZGeoDCAT] Profile and the http://pid.geoscience.gov.au/dataset/ga/122551[ISO19115-1:2014 GA Profile].
 
