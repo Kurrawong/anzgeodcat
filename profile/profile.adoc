@@ -1,9 +1,40 @@
 = ANZGeoDCAT Profile
 
-`https://linked.data.gov.au/def/anzgeodcat`
+This document is the Profile declaration of the ANZGeoDCAT Profile.
 
+A _Profile_ is a _Standard_ that "constrains, extends, combines, or provides guidance or explanation about the usage of other standards" (adapted from https://www.w3.org/TR/dx-prof/#dfn-profile[The Profiles Vocabulary]).
+
+This Profile declaration provides information about the Standards this Profile derives from as well as the multiple Resources it provides.
+
+== Metadata
+
+|===
+| Property | Value
+
+| https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier[IRI,title=Internationalized Resource Identifier] | `https://linked.data.gov.au/def/anzgeodcat`
+| http://schema.org/name[Name] | ANZGeoDCAT Profile
+| http://schema.org/description[Description] | A Profile of DCAT, GeoSPARQL PROV and other Semantic Web models for spatial dataset metadata
+| http://schema.org/creator[Creator] | https://icsm.gov.au/[Intergovernmental Committee on Surveying & Mapping]
+| http://schema.org/publisher[Publisher] | https://icsm.gov.au/[Intergovernmental Committee on Surveying & Mapping]
+| http://schema.org/contactPoints[Contact Points] | https://orcid.org/0000-0002-8742-7730[Nicholas Car] (nick@kurrawong.net) +
+Irina Bastrakova (irina.bastrakova@ga.gov.au)
+| http://schema.org/dateCreated[Date Created] | 2022-12-07
+| http://schema.org/dateModified[Date Modified] | 2022-12-08
+| http://schema.org/datePublished[Date Published] | -
+| https://schema.org/license[License] | https://creativecommons.org/licenses/by/4.0/[Ceative Commons BY 4.0]
+| https://schema.org/copyrightHolder[Copyright Holder] | https://icsm.gov.au/[Intergovernmental Committee on Surveying & Mapping]
+| https://schema.org/copyrightYear[Copyright Year] | 2022
+| https://schema.org/codeRepository[Code Repository] | https://github.com/Kurrawong/anzgeodcat
+| |
+| https://www.w3.org/TR/dx-prof/#Property:isProfileOf[Is Profile Of]
+| https://www.w3.org/TR/vocab-dcat/[DCAT 2] +
+https://opengeospatial.github.io/ogc-geosparql/geosparql11/spec.html[GeoSPARQL] +
+https://www.w3.org/TR/owl-time/[OWL Time]
+|===
 
 == Resources
+
+These are the Resources provided by this Profile with roles as per the https://www.w3.org/TR/dx-prof/[Profiles Vocabulary].
 
 |===
 | Resources | Role | Description
@@ -11,7 +42,7 @@
 | https://linked.data.gov.au/def/anzgeodcat/guide[Guide] | https://www.w3.org/TR/dx-prof/#Role:guidance[_guidance_] | Profiles a simple overview of the Profile
 | https://linked.data.gov.au/def/anzgeodcat/spec[Specification] | https://www.w3.org/TR/dx-prof/#Role:specification[_specification_] | Defines the normative _Requirements_ of the Profile
 
-| https://linked.data.gov.au/def/anzgeodcat/fsdf[Description of m to FSDF] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | Defines normative mappings to the https://linked.data.gov.au/def/fsdf-supermodel[FSDF Supermodel]
+| https://linked.data.gov.au/def/anzgeodcat/fsdf[Description of mapping to FSDF] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | Defines normative mappings to the https://linked.data.gov.au/def/fsdf-supermodel[FSDF Supermodel]
 | https://linked.data.gov.au/def/anzgeodcat/idncp[Description of mapping to IDN CP] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | Defines normative mappings to the https://w3id.org/idn/cp[Indigenous Data Network's Catalogue Profile]
 | https://linked.data.gov.au/def/anzgeodcat/iso19115[Description of mapping to GA's Profile of ISO19115-1] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | Defines normative mappings to https://linked.data.gov.au/def/anzgeodcat/mapping/iso19115-1-ga[Geoscience Australia's Profile of ISO19115-1]
 | https://linked.data.gov.au/def/anzgeodcat/iso19115.py[Python script for conversion to GA's Profile of ISO19115-1] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_], _script_ | Reads ANZGeoDCAT data and produces ISO19115-1 GA Profile data & vice versa
