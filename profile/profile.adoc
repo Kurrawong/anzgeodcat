@@ -11,10 +11,11 @@
 | https://linked.data.gov.au/def/anzgeodcat/guide[Guide] | https://www.w3.org/TR/dx-prof/#Role:guidance[_guidance_] | Profiles a simple overview of the Profile
 | https://linked.data.gov.au/def/anzgeodcat/spec[Specification] | https://www.w3.org/TR/dx-prof/#Role:specification[_specification_] | Defines the normative _Requirements_ of the Profile
 
-| https://linked.data.gov.au/def/anzgeodcat/fsdf[Mapping to FSDF] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | Defines normative mappings to the https://linked.data.gov.au/def/fsdf-supermodel[FSDF Supermodel]
-| https://linked.data.gov.au/def/anzgeodcat/idncp[Mapping to IDN CP] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | Defines normative mappings to the https://w3id.org/idn/cp[Indigenous Data Network's Catalogue Profile]
-| https://linked.data.gov.au/def/anzgeodcat/iso19115[Mapping to GA's Profile of ISO19115-1] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | Defines normative mappings to https://linked.data.gov.au/def/anzgeodcat/mapping/iso19115-1-ga[Geoscience Australia's Profile of ISO19115-1]
-| https://linked.data.gov.au/def/anzgeodcat/sdo[Mapping to schema.org] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | Defines normative mappings to https://schema.org[schema.org]
-| https://linked.data.gov.au/def/anzgeodcat/sdo[Mapping to schema.org (machine-readable version)] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | OWL/RDFS mappings from ANZGeoDCAT to schema.org
+| https://linked.data.gov.au/def/anzgeodcat/fsdf[Description of m to FSDF] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | Defines normative mappings to the https://linked.data.gov.au/def/fsdf-supermodel[FSDF Supermodel]
+| https://linked.data.gov.au/def/anzgeodcat/idncp[Description of mapping to IDN CP] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | Defines normative mappings to the https://w3id.org/idn/cp[Indigenous Data Network's Catalogue Profile]
+| https://linked.data.gov.au/def/anzgeodcat/iso19115[Description of mapping to GA's Profile of ISO19115-1] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | Defines normative mappings to https://linked.data.gov.au/def/anzgeodcat/mapping/iso19115-1-ga[Geoscience Australia's Profile of ISO19115-1]
+| https://linked.data.gov.au/def/anzgeodcat/iso19115.py[Python script for conversion to GA's Profile of ISO19115-1] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_], _script_ | Reads ANZGeoDCAT data and produces ISO19115-1 GA Profile data & vice versa
+| https://linked.data.gov.au/def/anzgeodcat/sdo[Description of mapping to schema.org] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | Defines normative mappings to https://schema.org[schema.org]
+| https://linked.data.gov.au/def/anzgeodcat/sdo[Description of mapping to schema.org (machine-readable version)] | https://www.w3.org/TR/dx-prof/#Role:mapping[_mapping_] | OWL/RDFS mappings from ANZGeoDCAT to schema.org
 
 |===
