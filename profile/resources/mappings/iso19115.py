@@ -20,5 +20,11 @@ To run this script you need the following installed:
 * lxml - Python module for XML manipulation
 """
 from rdflib import Graph
+from lxml import etree
 
-
+root = etree.Element("root")
+root.append(etree.Element("child1"))
+child2 = etree.SubElement(root, "child2")
+child2.text = "Child Two"
+child2.attrib["age"] = "12"
+print(etree.tostring(root, xml_declaration=True, encoding="UTF-8", pretty_print=True).decode())

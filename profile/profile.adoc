@@ -39,6 +39,8 @@ These are the Resources provided by this Profile with roles as per the https://w
 |===
 | Resources | Role | Description
 
+| https://kurrawong.github.io/anzgeodcat[Profile Motivation Document] | https://www.w3.org/TR/dx-prof/#Role:guidance[_guidance_] | Details the motivations, including profile-wide requirements, that lead to the creation of this Profile
+
 | https://linked.data.gov.au/def/anzgeodcat/guide[Guide] | https://www.w3.org/TR/dx-prof/#Role:guidance[_guidance_] | Profiles a simple overview of the Profile
 | https://linked.data.gov.au/def/anzgeodcat/spec[Specification] | https://www.w3.org/TR/dx-prof/#Role:specification[_specification_] | Defines the normative _Requirements_ of the Profile
 

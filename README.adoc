@@ -1,5 +1,7 @@
 = ANZGeoDCAT
 
+NOTE: If viewing this within the ANZGeoDCAT code repository, see its rendered form at https://kurrawong.github.io/anzgeodcat
+
 _ANZGeoDCAT_ will be a profile of https://www.w3.org/TR/vocab-dcat/[Data Catalog Vocabulary (DCAT)] and also of https://semiceu.github.io/GeoDCAT-AP/drafts/latest/[GeoDCAT] which is, itself a profile of DCAT too.
 
 The purpose of this web page is to describe the motivations and requirements for ANZGeoDCAT and this page is being written before ANZGeoDCAT is created to ensure it best caters for a wide range of agreed to requirements.
@@ -25,7 +27,7 @@ There are several main motivations for the creation of this profile:
 
 == Requirements
 
-Requirements for ANZGeoDCAT as a whole - not the individual requirements for metadata elements as will eventually be specified by the profile - are being gathered in this repository as task tracker https://github.com/Kurrawong/anzgeodcat/issues[Issues] and are also listed in the table below. Depending on how this proceeds, we may move to GitHub Issue tracking.
+Requirements for ANZGeoDCAT as a whole - not the individual requirements for metadata elements as will eventually be specified by the profile - are being gathered in this repository as https://github.com/Kurrawong/anzgeodcat/issues[Issues] and progress is tracked via and https://github.com/orgs/Kurrawong/projects/1[Project Issue Tracker]. Initial Issues, as of December 2022, are also listed in the table below.
 
 |===
 | ID | Name | Description | Rational | Proponent
