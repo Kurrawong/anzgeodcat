@@ -1,15 +1,23 @@
 = ANZGeoDCAT
+:toc:
+:toclevels: 1
 
-NOTE: If viewing this within the ANZGeoDCAT code repository, see its rendered form at https://kurrawong.github.io/anzgeodcat
+The purpose of this page is to describe the motivations and requirements for ANZGeoDCAT and this page is being written before ANZGeoDCAT is created to ensure it best caters for a wide range of agreed to requirements.
 
-_ANZGeoDCAT_ will be a profile of https://www.w3.org/TR/vocab-dcat/[Data Catalog Vocabulary (DCAT)] and also of https://semiceu.github.io/GeoDCAT-AP/drafts/latest/[GeoDCAT] which is, itself a profile of DCAT too.
+NOTE: If viewing this within the ANZGeoDCAT code repository, see its rendered form at https://kurrawong.github.io/anzgeodcat. If viewing the rendered form, the code repository containing this and all other profile resources is at https://github.com/Kurrawong/anzgeodcat
 
-The purpose of this web page is to describe the motivations and requirements for ANZGeoDCAT and this page is being written before ANZGeoDCAT is created to ensure it best caters for a wide range of agreed to requirements.
+== Abstract
+
+_ANZGeoDCAT_ will be a profile of https://www.w3.org/TR/vocab-dcat/[Data Catalog Vocabulary (DCAT)] and also of https://semiceu.github.io/GeoDCAT-AP/drafts/latest/[GeoDCAT] which is, itself a profile of DCAT.
+
+The Profile's formal definition is at:
+
+* *https://linked.data.gov.au/def/anzgeodcat*
 
 
-== Motivations
+== 1. Motivations
 
-There are several main motivations for the creation of this profile:
+There are several main motivations for the creation of this Profile:
 
 . to provide a Knowledge Graph / Semantic Web metadata standard for several new, Australian & New Zealand, geospatial agencies' spatial data catalogues
 .. several agencies are implementing new https://ckan.org/[CKAN] instances and CKAN can already export some DCAT metadata. Let's improve that...
@@ -25,7 +33,7 @@ There are several main motivations for the creation of this profile:
 .. the https://www.ogc.org/[Open Geospatial Consortium] is starting a standardisation initiative around Knowledge Graph geospatial metadata with https://github.com/opengeospatial/geosemantics-dwg/blob/master/geodcat_swg_charter/swg_charter.pdf[their formalisation of GeoDCAT] and we want to be part of that with our requirements already formulated
 
 
-== Requirements
+== 2. Requirements
 
 Requirements for ANZGeoDCAT as a whole - not the individual requirements for metadata elements as will eventually be specified by the profile - are being gathered in this repository as https://github.com/Kurrawong/anzgeodcat/issues[Issues] and progress is tracked via and https://github.com/orgs/Kurrawong/projects/1[Project Issue Tracker]. Initial Issues, as of December 2022, are also listed in the table below.
 
@@ -76,18 +84,18 @@ Requirements for ANZGeoDCAT as a whole - not the individual requirements for met
 
 |===
 
-== Expected Result Form
+== 3. Expected Final Form
 
-The profile will be a formal (model-defined) profile of DCAT using profile modelling semantics taken from the W3C's https://www.w3.org/TR/dx-prof/[Profiles Vocabulary].
+The Profile will be a formal (model-defined) profile of DCAT using profile modelling semantics taken from the W3C's https://www.w3.org/TR/dx-prof/[Profiles Vocabulary].
 
-The profile will likely define constraints on the use of DCAT, mappings from DCAT to other models, suggestions/requirements for the use of models related to DCAT, like https://www.w3.org/TR/prov-o/[PROV] for provenance, and interfaces with other profiles, such as the https://linked.data.gov.au/def/idncp[Indigenous Data Network's Catalogue Profile].
+The Profile will likely define constraints on the use of DCAT, mappings from DCAT to other models, suggestions/requirements for the use of models related to DCAT, like https://www.w3.org/TR/prov-o/[PROV] for provenance, and interfaces with other profiles, such as the https://linked.data.gov.au/def/idncp[Indigenous Data Network's Catalogue Profile].
 
-The profile will be presented in normative, human-readable form (a specification), machine-readable model form (a model/schema) as well as mappings, supporting vocabularies and so on. Tooling for data validation against the profile and for metric calculation from profile data (e.g. FAIR scores) will also be provided.
+The Profile will be presented in normative, human-readable form (a specification), machine-readable model form (a model/schema) as well as mappings, supporting vocabularies and so on. Tooling for data validation against the Profile and for metric calculation from Profile data (e.g. FAIR scores) will also be provided.
 
 
-== Get Involved
+== 4. Get Involved
 
-Anyone can get involved with the development of ANZGeoDCAT and we encourage anyone to participate. please just contact those listed below.
+Anyone can get involved with the development of ANZGeoDCAT and we encourage anyone with an interest in this space to participate. Please just contact those listed below to let us know.
 
 === Who is already involved
 
@@ -95,36 +103,41 @@ Anyone can get involved with the development of ANZGeoDCAT and we encourage anyo
 |Organisation | Org Description | Role | Contact
 
 | https://www.icsm.gov.au/[Intergovernmental Committee on Surveying & Mapping]
-| peak Australian & New Zealand spatial data inter-agency organisation
-| owner of the profile & lead coordinating body
+| Peak Australian & New Zealand spatial data inter-agency organisation
+| Owner of the Profile & lead coordinating body
 | Irina Bastrakova
 
 | https://www.ga.gov.au[Geoscience Australia]
-| peak Australian spatial agency
-| lead authority and profile expert of the profile
+| Peak Australian spatial agency
+| Lead authority and Profile expert
 | Margie Smith
 
 | https://www.energymining.sa.gov.au/industry/geological-survey[Geological Survey of South Australia]
 | South Australia's geological agency
-| CKAN catalogue implementer - profile user
+| CKAN catalogue implementer - Profile user
 | Christie Gerrard
+
+| https://www.business.qld.gov.au/industries/mining-energy-water/resources/geoscience-information/gsq[Geological Survey of Queensland]
+| Queensland's geological agency
+| CKAN catalogue implementer - Profile user
+| Mark Gordon
 
 | https://idnau.org/[Indigenous Data Network]
 | Australian multi-agency collaboration
-| alignment with the https://linked.data.gov.au/def/idncp[IDN Catalogue Profile]
+| Alignment with the https://linked.data.gov.au/def/idncp[IDN Catalogue Profile]
 | Sandra Silcot
 
 | https://kurrawong.net[KurrawongAI]
-| contract data science  / IT company
-| coordination and technical establishment
+| Contract data science  / IT company
+| Coordination and technical establishment
 | Nicholas Car
 |===
 
 === Governance
 
-This profile is being established for the organisations already involved with coordination and technical work resourced by them.
+This Profile is being established for the organisations already involved with coordination and technical work resourced by them.
 
-Eventual governance and ownership of this profile will be determined by the participating organisation but will likely be allocated to perhaps one of the following:
+Eventual governance and ownership of this Profile will be determined by the participating organisation but will likely be allocated to perhaps one of the following:
 
 * an Australia & New Zealand spatial consortium - e.g. ANZLIC / ICSM
 * a lead agency - e.g. Geoscience Australia
