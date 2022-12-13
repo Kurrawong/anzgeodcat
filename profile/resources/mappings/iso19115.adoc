@@ -11,3 +11,5 @@ _The ISO19115-1:2014 GA Profile defines mandatory and conditional packages/entit
 http://pid.geoscience.gov.au/dataset/ga/122551
 
 http://ldweb.ga.gov.au/def/schema/ga/ISO19115-1-2014/
+
+See the Python script mapping RDF to ISO19115-3 XML: https://linked.data.gov.au/def/anzgeodcat/iso19115.py

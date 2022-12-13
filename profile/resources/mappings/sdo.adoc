@@ -10,8 +10,12 @@ _Schema.org is a collaborative, community activity with a mission to create, mai
 
 _As well as describing web page resources, schema.org is also used to for some cataloging tools, for example https://www.researchobject.org/ro-crate/[RO Crates]._
 
+Our preferred mapping so far: https://github.com/ESIPFed/science-on-schema.org
+
+Other mappings/related info:
+
 https://ec-jrc.github.io/dcat-ap-to-schema-org/
 
 https://schema.org/docs/data-and-datasets.html
 
-* Logic about not forcing mappings to only schema.org elements since schema.org can be used with other models too.
+* Logic about not forcing mappings to only schema.org elements since schema.org can be used with other models too might need to be included
