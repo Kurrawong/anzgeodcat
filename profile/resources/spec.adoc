@@ -1,3 +1,0 @@
-= ANZGeoDCAT Specification
-
-`https://linked.data.gov.au/def/anzgeodcat/spec`

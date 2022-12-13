@@ -1,9 +1,0 @@
-= ANZGeoDCAT Mapping
-
-== to the FSDF Supermodel
-
-`https://linked.data.gov.au/def/anzgeodcat/fsdf`
-
-This is a mapping between elements of the https://linked.data.gov.au/def/anzgeodcat[ANZGeoDCAT] Profile and the https://linked.data.gov.au/def/fsdf-supermodel[FSDF Supermodel].
-
-_The FSDF Supermodel "is the overarching data model that provides integration logic for all FSDF elements. It is based on the general-purpose Supermodel Model". It is a multi-model system that is used for the representation of Australian national spatial datasets in Semantic Web form._

@@ -1,3 +1,0 @@
-= ANZGeoDCAT Guide
-
-`https://linked.data.gov.au/def/anzgeodcat/guide`
